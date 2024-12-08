@@ -25,24 +25,24 @@ In this home lab, I observed different networking activities and traffic using m
 2. Create a Windows 10 Virtual Machine (VM).
 3. While creating the VM, select the previously created Resource Group:  
  
-   ![image](https://github.com/user-attachments/assets/bcfe5971-0a91-47a8-8028-4e42e2efe1c9)
+![11](https://github.com/user-attachments/assets/2864c781-f443-44e4-b8a0-ef881ea76b88)
 4. Allow the creation of a new Virtual Network (Vnet) and Subnet:  
   
-   ![image](https://github.com/user-attachments/assets/f88448be-4b33-4195-bb62-aa19d65a81f0)
+![12](https://github.com/user-attachments/assets/5d6ee871-8109-4dc2-8401-eb89b1506a3d)
 5. Create a Linux (Ubuntu) VM:  
   
-   ![image](https://github.com/user-attachments/assets/6b128cfd-2ea6-4960-813c-93130d98e123)
+![13](https://github.com/user-attachments/assets/a43b68fc-0084-4f21-8cde-f3d3c07b07b5)
 6. While creating the VM, select the previously created Resource Group and Vnet:  
  
-   ![image](https://github.com/user-attachments/assets/130b8970-52d5-4a1b-a616-96aaaab416ee)  
+![14](https://github.com/user-attachments/assets/dc1231d7-867e-4a36-9632-3d9aa8d4f20c)
   
-   ![image](https://github.com/user-attachments/assets/be3d9782-84c7-4590-871f-dee49b55ffb7)
+![15](https://github.com/user-attachments/assets/a2f4ee2f-dda4-4e38-8da9-ecc9bb042cab)
 7. Observe your Virtual Network within Network Watcher.
 
 <h3>Part 2: Observe ICMP Traffic</h3>
 1. Use Remote Desktop to connect to your Windows 10 Virtual Machine.
   
-   ![image](https://github.com/user-attachments/assets/9beedd20-fcb4-4fe6-9197-f66de1db5037)
+![16](https://github.com/user-attachments/assets/4934426b-37a5-4a3a-8512-f3c8780573d0)
 2. Install Wireshark on the Windows 10 VM.
  
    ![image](https://github.com/user-attachments/assets/76b18670-cb2d-4dfe-a955-3cf23ad2c764)
