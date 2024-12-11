@@ -81,13 +81,13 @@ In this home lab, I observed different networking activities and traffic using m
 1. In Wireshark, filter for DHCP traffic only.
 2. From your Windows 10 VM, attempt to issue your VM a new IP address using the command `ipconfig /renew` and observe the DHCP traffic in Wireshark.  
 
-   ![image](https://github.com/user-attachments/assets/9549dbae-fa51-4243-bb07-bc031f601cd5)
+![r15](https://github.com/user-attachments/assets/f87b8d1f-c7cb-4edf-97e5-b9e3e289f13e)
    
 <h3>Part 5: Observe DNS Traffic</h3>
 1. In Wireshark, filter for DNS traffic only.
 2. From your Windows 10 VM, within the Command Line, use `nslookup` to resolve a website's IP address and observe the DNS traffic in Wireshark.  
   
-   ![image](https://github.com/user-attachments/assets/0e32494b-3551-46d3-8b39-44f89a8f563d)
+![r16](https://github.com/user-attachments/assets/90e37913-0673-4590-a9c6-cdf98066d3ec)
 
 <h3>Part 6: Observe RDP Traffic</h3>
 1. In Wireshark, filter for RDP traffic only (`tcp.port == 3389`).
@@ -95,7 +95,7 @@ In this home lab, I observed different networking activities and traffic using m
    
    RDP traffic is constant because it streams the live display of one computer to another. Unlike SSH, where traffic is generated only when keystrokes are sent, RDP transmits a constant stream of data for the remote session.  
 
-   ![image](https://github.com/user-attachments/assets/dcbdcecc-4847-4cdf-813c-a623185a4b8a)
+![r17](https://github.com/user-attachments/assets/7d88097a-7e34-4b24-9a56-f1dd3d2d1f58)
 
 <h2>Takeaways and Key Skills Developed</h2>
 In this lab, I explored network security and traffic monitoring between Azure VMs using various protocols and tools such as Wireshark and PowerShell. I created both Windows and Ubuntu VMs, observing traffic for ICMP, SSH, DNS, RDP, and DHCP. By filtering traffic in Wireshark, I was able to understand how different protocols behave, such as viewing ICMP traffic during ping tests, SSH traffic during remote connections, and RDP traffic for remote desktop sessions. I also configured Network Security Groups (NSGs) to control traffic, such as blocking ICMP and monitoring its impact in real-time. This lab enhanced my understanding of network security practices, traffic analysis, and the configuration of security measures in a cloud environment.
