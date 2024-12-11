@@ -42,7 +42,7 @@ In this home lab, I observed different networking activities and traffic using m
 <h3>Part 2: Observe ICMP Traffic</h3>
 1. Use Remote Desktop to connect to your Windows 10 Virtual Machine.
   
-![8a](https://github.com/user-attachments/assets/4eaa7662-d0bb-4125-a1cc-3214b2a5ab80)
+![8a](https://github.com/user-attachments/assets/c6584f4c-3962-4577-8a6e-45d525a606a3)
 2. Install Wireshark on the Windows 10 VM.
  
 ![r7](https://github.com/user-attachments/assets/fb892647-2d82-42ac-ac75-026f41756721)
