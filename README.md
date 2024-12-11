@@ -25,13 +25,13 @@ In this home lab, I observed different networking activities and traffic using m
 2. Create a Windows 10 Virtual Machine (VM).
 3. While creating the VM, select the previously created Resource Group:  
  
-![1a](https://github.com/user-attachments/assets/ffd40a5d-8dc9-4172-8a1e-41ea86aa3f07)
+![r1](https://github.com/user-attachments/assets/8c12e457-4e9d-4c62-afea-0b566f0d4d4d)
 4. Allow the creation of a new Virtual Network (Vnet) and Subnet:  
   
-![2a](https://github.com/user-attachments/assets/6358c593-6a85-4797-9620-0e9cd5a7e69e)
+![r2](https://github.com/user-attachments/assets/f93823f1-e760-4828-b841-42e5e271f2bf)
 5. Create a Linux (Ubuntu) VM:  
   
-![3a](https://github.com/user-attachments/assets/b5b256c7-c811-4e40-b8e1-88e9b8dc24d9)
+![r3](https://github.com/user-attachments/assets/44662103-2d2b-445e-91d1-a3be63c776de)
 6. While creating the VM, select the previously created Resource Group and Vnet:  
  
 ![6a](https://github.com/user-attachments/assets/9276c3c4-011f-4f15-8306-523099565d5c)
