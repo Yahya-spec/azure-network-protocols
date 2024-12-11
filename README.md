@@ -34,9 +34,9 @@ In this home lab, I observed different networking activities and traffic using m
 ![r3](https://github.com/user-attachments/assets/44662103-2d2b-445e-91d1-a3be63c776de)
 6. While creating the VM, select the previously created Resource Group and Vnet:  
  
-![6a](https://github.com/user-attachments/assets/9276c3c4-011f-4f15-8306-523099565d5c)
+![r4](https://github.com/user-attachments/assets/34efc00d-5066-4a89-b5a8-9c1eb04b4b18)
   
-![7a](https://github.com/user-attachments/assets/c56ca154-3ebf-402e-a14d-2b59611fc362)
+![r5](https://github.com/user-attachments/assets/9f753070-e792-4379-ada9-b2e06ebe351f)
 7. Observe your Virtual Network within Network Watcher.
 
 <h3>Part 2: Observe ICMP Traffic</h3>
@@ -45,7 +45,7 @@ In this home lab, I observed different networking activities and traffic using m
 ![8a](https://github.com/user-attachments/assets/4eaa7662-d0bb-4125-a1cc-3214b2a5ab80)
 2. Install Wireshark on the Windows 10 VM.
  
-   ![image](https://github.com/user-attachments/assets/76b18670-cb2d-4dfe-a955-3cf23ad2c764)
+![r7](https://github.com/user-attachments/assets/fb892647-2d82-42ac-ac75-026f41756721)
 3. Open Wireshark and filter for ICMP traffic only.  
   
    ![image](https://github.com/user-attachments/assets/f694f4d6-4c6a-4072-ac9d-3f4745f7c0d6)  
